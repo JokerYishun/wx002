@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Title":"../../components/MyTitle/mytitle"
+
+  }
+
+}

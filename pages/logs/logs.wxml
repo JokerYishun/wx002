@@ -1,0 +1,27 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <text class="log-item">点击时间： {{logs}}</text>
+  <view class="item" wx:for="{{datalist}}" wx:key="{{index}}">
+ 
+   
+    <view class='info'>
+    <view class="top_title">
+      <text>{{index+1}}.{{item.title}}</text>
+       <text class="info_date">{{item.date}}-来源：{{item.author_name}}</text>
+      
+    </view>
+    <swiper class="info_image" autoplay circular indicator-dots indicator-active-color='#fff'>
+    <swiper-item>
+      <image  src='{{item.thumbnail_pic_s}}' alt="获取失败" mode="widthFix" />
+    </swiper-item>
+    <swiper-item>
+      <image  src='{{item.thumbnail_pic_s02}}' alt="获取失败" mode="widthFix" />
+    </swiper-item>
+    <swiper-item>
+      <image  src='{{item.thumbnail_pic_s03}}' alt="获取失败" mode="widthFix" />
+    </swiper-item>
+    </swiper>
+    </view>
+  
+</view>
+</view>

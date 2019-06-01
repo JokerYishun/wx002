@@ -1,0 +1,41 @@
+/* pages/detail/detail.wxss */
+
+.video_wrap{
+    display: flex;
+    flex-direction: column;
+}
+.top_title{
+    font-size: 32rpx;
+    margin: 10rpx;
+}
+
+.video_img{
+    display: flex;
+    flex-direction: column;
+    padding:10rpx;
+    justify-content: space-between;
+}
+.video_img image{
+    width: 80%;
+    margin-top:20rpx;
+    margin-left: 50rpx;
+    border-radius: 20rpx
+    
+}
+
+.count_wrap{
+    display: flex;
+    flex-direction:column;
+    
+}
+.count{
+    flex: 1;
+    font-size: 28rpx;
+    color: #9933CC;
+    margin-left: 50rpx;
+}
+
+.video_title{
+    padding: 10rpx;
+    font-size: 28rpx;
+}

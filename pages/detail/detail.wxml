@@ -1,0 +1,29 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+<Title></Title>
+
+<view class='video_wrap'>
+<view class='top_title fa fa-hand-o-right'>电影详情</view>
+
+<view class='video_img'>
+  <image mode='widthFix' src='{{datalist.poster}}'></image>
+<!--名字-->
+  <view class='count_wrap'>
+  <text class='count'>电影名字：{{datalist.title}}</text>
+  <text class='count'>拍摄国家：{{datalist.country}}</text>
+  <text class='count'>导演：{{datalist.directors}}</text>
+  <text class='count'>演员：{{datalist.actors}}</text>
+  <text class='count'>类型：{{datalist.genres}}</text>
+  <text class='count'>上映时间：{{datalist.release_date}}</text>
+  <text class='count'>影片得分：{{datalist.rating}}</text>
+  
+  <text class='count'>评分人数：{{datalist.rating_count}}</text>
+
+  </view>
+ 
+</view>
+<view class='video_title'>剧情概要：{{datalist.plot_simple}}</view>
+
+
+</view>
+</view>

@@ -1,0 +1,32 @@
+page{
+    padding: 10rpx;
+}
+.video_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding:5rpx;
+    justify-content:space-between;
+}
+
+.video_item{
+    width: 48%;
+    margin-bottom: 20rpx;
+}
+.video_img{}
+
+.video_img image{
+    width: 100%;
+    border-radius: 15rpx;
+  }
+.count_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.count_wrap text{
+    margin-left: 10rpx;
+    
+    font-size: 30rpx;
+    color: #0000cc;
+}

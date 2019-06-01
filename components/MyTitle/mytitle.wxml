@@ -1,0 +1,10 @@
+<view class="my-title">
+<navigator url="../../pages/index/index" open-type='navigate' class="logo">
+<image class="logo_img" src="../../icon/user.png"></image>
+</navigator >
+    
+    
+    <view class="download">
+        感谢使用
+    </view>
+</view>

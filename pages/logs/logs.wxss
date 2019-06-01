@@ -1,0 +1,39 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.item{
+  margin-top:20rpx;
+
+}
+.top_title{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+image{
+  width: 100%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+.info_date{
+  margin-left:120rpx;
+}
+.info_image{
+  
+}
+.info text{
+  color: #666;
+  font-size: 28rpx;
+}
+

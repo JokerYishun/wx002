@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+<Title></Title>
+
+<view class='video_wrap'>
+<navigator url='../detail/detail?id={{item.movieId}}' open-type='navigate' class='video_item' wx:for='{{datalist}}' wx:key='{{index}}'>
+
+<view class='video_img'>
+  <image mode='widthFix' src='{{item.pic_url}}'></image>
+<!--名字-->
+  <view class='count_wrap fa fa-film'>
+  <text class='count'>{{item.movieName}}</text>
+  </view>
+ 
+</view>
+<view class='video_title'>{{item.desc}}</view>
+
+</navigator>
+</view>
+</view>

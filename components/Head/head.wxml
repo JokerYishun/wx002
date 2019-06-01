@@ -1,0 +1,6 @@
+<view class="head">
+{{Cdata}}
+<view>
+<slot></slot>
+</view>
+</view>

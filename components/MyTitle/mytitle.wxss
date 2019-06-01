@@ -1,0 +1,29 @@
+.my-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #000
+
+}
+.logo{
+  flex: 6;
+}
+.logo image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+
+.download {
+    flex: 3;
+    color: #fff;
+    background: pink;
+    border-radius: 10rpx;
+    font-size: 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rpx;
+}

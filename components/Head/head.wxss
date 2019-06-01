@@ -1,0 +1,5 @@
+/* components/Head/head.wxss */
+.head{
+  font-size: 50px;
+  background: green;
+}
